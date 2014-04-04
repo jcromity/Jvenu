@@ -75,15 +75,15 @@ input:focus,textarea:focus {
   margin:0 auto;
   max-width:1420px;
   overflow:hidden;
-  padding: 0 0 50px 0;
+  padding: 0 20px;
   position:relative;
   width:100%;
-  height: 50%;
+  
 }
 .wrap:before {
   content:' ';
   display:inline-block;
-  height:100%;
+  height:50%;
   margin-right:-0.25em;
   vertical-align:middle;
 }
@@ -93,7 +93,7 @@ header {
   height:110px;
 }
 header .wrap {
-  height:75%;
+  height:100%;
 }
 header .logo {
   margin-top:1px;
@@ -150,7 +150,7 @@ footer .copyright {
   font-size:3em;
   font-weight:100;
   position:absolute;
-  padding-top: 120px;
+  padding-top: 150px;
   width:42%;
 }
 .projectObj .img {
@@ -379,7 +379,7 @@ button {
       padding:10px 12px;
     }
     .wrap {
-      padding:0 30px;
+      padding:0 20px;
     }
     .paddRow .close {
       right:30px;
