@@ -75,7 +75,7 @@ input:focus,textarea:focus {
   margin:0 auto;
   max-width:1420px;
   overflow:hidden;
-  padding: 0 20px;
+  padding: 0 50px;
   position:relative;
   width:100%;
   
@@ -151,13 +151,13 @@ footer .copyright {
   font-weight:100;
   position:absolute;
   padding-top: 150px;
-  width:42%;
+  width:30%;
 }
 .projectObj .img {
   float:right;
   margin-bottom:5%;
   margin-top:5%;
-  width:30%;
+  width:20%;
 }
 
 .paddRow {
