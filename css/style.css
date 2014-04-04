@@ -424,6 +424,8 @@ button {
     }
     .projectObj .name {
       font-size:3em;
+	  padding-top: 50px;
+	  
     }
     .paddRow {
       padding-bottom:30px;
