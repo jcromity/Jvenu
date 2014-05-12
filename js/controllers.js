@@ -16,7 +16,7 @@
 function HomeCtrl($scope, $http) {
 }
 
-function ProjectCtrl($scope, $http) {
+function CompanyCtrl($scope, $http) {
 }
 
 function PrivacyCtrl($scope, $http, $timeout) {

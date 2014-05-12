@@ -16,11 +16,11 @@
 var app = angular.module('example359', []).
     config(['$routeProvider', function ($routeProvider) {
       $routeProvider.
-        when('/', { templateUrl: 'pages/index.html', activetab: 'projects', controller: HomeCtrl }).
-        when('/project/:projectId', {
-          templateUrl: function (params) { return 'pages/' + params.projectId + '.html'; },
-          controller: ProjectCtrl,
-          activetab: 'projects'
+        when('/', { templateUrl: 'pages/index.html', activetab: 'company', controller: HomeCtrl }).
+        when('/company/:companyId', {
+          templateUrl: function (params) { return 'pages/' + params.companyId + '.html'; },
+          controller: CompanyCtrl,
+          activetab: 'company'
         }).
         when('/privacy', {
           templateUrl: 'pages/privacy.html',
