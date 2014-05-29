@@ -40,6 +40,10 @@ h3 {
 p {
   font-size:1.5em; 
 }
+li {
+	list-style-type:square;
+	padding: 5px;
+}
 input,textarea {
   -webkit-appearance:none;
   background-color:#f7f7f7;
