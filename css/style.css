@@ -255,7 +255,7 @@ footer .copyright {
 }
 .companyHead .centerText {
   margin:0 auto;
-  padding-bottom:50%;
+  padding-bottom:30%;
   padding-top:6%;
   text-align:center;
   width:55%;
@@ -405,7 +405,7 @@ button {
       padding:10px 12px;
     }
     .wrap {
-      padding: 20px;
+      padding: 0 20px;
     }
     .paddRow .close {
       right:30px;
@@ -471,7 +471,7 @@ button {
       margin-right:20.5%;
     }
     .companyHead .text {
-      position:static;
+      position: inherit;
       width:100%;
     }
     .companyHead .centerText {
