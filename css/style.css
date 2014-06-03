@@ -87,7 +87,7 @@ input:focus,textarea:focus {
   box-sizing:border-box;
   margin:0 auto;
   max-width:1420px;
-  overflow:hidden;
+  overflow: hidden;
   padding: 50px;
   position:relative;
   width:100%;
