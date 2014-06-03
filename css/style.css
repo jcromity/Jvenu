@@ -471,7 +471,7 @@ button {
       margin-right:20.5%;
     }
     .companyHead .text {
-      position: inherit;
+      position: relative;
       width:100%;
     }
     .companyHead .centerText {
