@@ -88,11 +88,22 @@ input:focus,textarea:focus {
   margin:0 auto;
   max-width:1420px;
   overflow: hidden;
-  padding: 0 50px 100% 0px;
+  padding: 0 50px;
   position:relative;
   width:100%;
-  
+
 }
+.wrap2 {
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  box-sizing:border-box;
+  margin:0 auto;
+  max-width:1420px;
+  overflow: hidden;
+  padding: 0 50px 70px 0;
+  position:relative;
+  width:100%;
+
 .wrap:before {
   content:' ';
   display:inline-block;
