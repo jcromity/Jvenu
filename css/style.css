@@ -25,7 +25,9 @@ body {
 }
 a {
   text-decoration:none;
-  color:#F5F5EE
+}
+.link a{
+	color:#F5F5EE;
 }
 a img {
   border:none;
