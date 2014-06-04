@@ -19,7 +19,7 @@ function HomeCtrl($scope, $http) {
 function CompanyCtrl($scope, $http) {
 }
 
-function PrivacyCtrl($scope, $http, $timeout) {
+function PublishedCtrl($scope, $http, $timeout) {
 }
 
 function AboutCtrl($scope, $http, $timeout) {

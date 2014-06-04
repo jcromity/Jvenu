@@ -13,7 +13,7 @@
 'use strict';
 
 // angular.js main app initialization
-var app = angular.module('example359', []).
+var app = angular.module('jvenu', []).
     config(['$routeProvider', function ($routeProvider) {
       $routeProvider.
         when('/', { templateUrl: 'pages/index.html', activetab: 'company', controller: HomeCtrl }).
@@ -22,10 +22,10 @@ var app = angular.module('example359', []).
           controller: CompanyCtrl,
           activetab: 'company'
         }).
-        when('/privacy', {
-          templateUrl: 'pages/privacy.html',
-          controller: PrivacyCtrl,
-          activetab: 'privacy'
+        when('/published', {
+          templateUrl: 'pages/published.html',
+          controller: PublishedCtrl,
+          activetab: 'published'
         }).
         when('/about', {
           templateUrl: 'pages/about.html',
