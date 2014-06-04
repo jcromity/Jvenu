@@ -428,7 +428,7 @@ button {
       font-size: 1.3em;
       padding:10px 12px;
     }
-    .wrap {
+    .wrap .warp2 {
       padding: 0 20px;
     }
     .paddRow .close {
@@ -468,7 +468,7 @@ button {
       font-size:1.1em;
       padding:8px;
     }
-    .wrap {
+    .wrap .wrap2 {
       padding:0 15px;
     }
     .companyObj .name {
@@ -532,7 +532,7 @@ button {
     #contactBtn {
       display:none;
     }
-    .wrap {
+    .wrap .wrap2 {
       padding:0 25px 0px 10px;
     }
     .paddRow {
