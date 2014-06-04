@@ -21,16 +21,16 @@ var app = angular.module('jvenu', []).
           templateUrl: function (params) { return 'pages/' + params.companyId + '.html'; },
           controller: CompanyCtrl,
           activetab: 'company'
+		}).
+        when('/about', {
+          templateUrl: 'pages/about.html',
+          controller: AboutCtrl,
+          activetab: 'about'
         }).
         when('/published', {
           templateUrl: 'pages/published.html',
           controller: PublishedCtrl,
           activetab: 'published'
-        }).
-        when('/about', {
-          templateUrl: 'pages/about.html',
-          controller: AboutCtrl,
-          activetab: 'about'
         }).
         otherwise({ redirectTo: '/' });
     }]).run(['$rootScope', '$http', '$browser', '$timeout', "$route", function ($scope, $http, $browser, $timeout, $route) {
