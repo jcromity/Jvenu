@@ -25,9 +25,7 @@ body {
 }
 a {
   text-decoration:none;
-}
-.link a{
-	color:#F5F5EE;
+  color:#FFFFFF
 }
 a img {
   border:none;
@@ -266,7 +264,7 @@ footer .copyright {
   background-color:#008ACC;
 }
 .companyHead.company5 {
-  background-color:#D76B00;
+  background-color:#78A12F;
 }
 .companyHead .picture {
   margin-bottom:6%;
