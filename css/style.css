@@ -43,8 +43,8 @@ h3 {
 #proquest {
 	color:#97E9DB;
 }
-#thomson {
-	color:#001A8D;
+#thomson, dialog {
+	color:#FFEFBF;
 }
 p {
   font-size:1.5em; 
