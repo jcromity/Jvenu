@@ -450,8 +450,17 @@ button {
 	header .logo2 {
 		display:none
 	}
-}
-
+    header nav {
+      margin-top:8px;
+    }
+    header nav ul li {
+      margin-right:5px;
+    }
+    header nav ul li a {
+      border-radius:20px;
+      font-size:1.1em;
+      padding:8px;
+    }
 @media (min-width: 481px) and (max-width: 768px){
     body {
       font-size:80%;
