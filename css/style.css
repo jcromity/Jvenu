@@ -439,13 +439,13 @@ button {
     }
 }
 
-@media (min-width: 769px) and (max-width:1024px){
+@media (min-width: 769px) and (max-width:1199px){
     .contactForm {
       width:100%;
     }
 	 header .logo {
       margin-top:15px;
-      width:300px;
+      width:275px;
     }
 	header .logo2 {
 		display:none
