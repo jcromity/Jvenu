@@ -439,7 +439,7 @@ button {
     }
 }
 
-@media (max-width: 900px) {
+@media (min-width: 769px) and (max-width:1024px){
     .contactForm {
       width:100%;
     }
@@ -448,7 +448,7 @@ button {
 	}
 }
 
-@media (max-width: 768px) {
+@media (min-width: 481px) and (max-width: 768px){
     body {
       font-size:80%;
       margin:0;
@@ -516,7 +516,7 @@ button {
     }
 }
 
-@media (max-width: 480px) {
+@media (min-width: 320px) and (max-width:480px) {
     body {
       font-size:70%;
       margin:0;
@@ -576,75 +576,3 @@ button {
     .about .flLeft,.about .flRight,.input.email {
       float:none;
     }
-/*	--------------------------------------------------
-	Cool Modal
-	-------------------------------------------------- */
-	.cool-modal { 
-		display: block; 
-		font-size: 12px;
-	}
-			
-	.reveal-modal-bg { 
-		position: fixed; 
-		height: 100%;
-		width: 100%;
-		background: #000;
-		background: rgba(0,0,0,.8);
-		z-index: 100;
-		display: none;
-		top: 0;
-		left: 0; 
-		}
-	
-	.reveal-modal {
-	visibility: hidden;
-	top: 100px;
-	left: 50%;
-	margin-left: -300px;
-	width: 600px;
-	height: 500px;
-	background-repeat: no-repeat;
-	background-position: -200px -80px;
-	background-image: url(../img/modal-gloss.png);
-	background-color: #eee;
-	position: absolute;
-	z-index: 101;
-	padding: 30px 40px 34px;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
-	border-radius: 5px;
-	-moz-box-shadow: 0 0 10px rgba(0,0,0,.4);
-	-webkit-box-shadow: 0 0 10px rgba(0,0,0,.4);
-	-box-shadow: 0 0 10px rgba(0,0,0,.4);
-	color:#1F1D1D;
-		}
-		
-	.reveal-modal.small 		{ 
-	width: 200px; 
-	margin-left: -140px;
-	}
-	.reveal-modal.medium 		{ 
-	width: 400px; 
-	margin-left: -240px;
-	}
-	.reveal-modal.large 		{
-	width: 600px; 
-	margin-left: -340px;
-	}
-	.reveal-modal.xlarge 		{
-	 width: 800px; 
-	 margin-left: -440px;
-	 }
-	
-	.reveal-modal .close-reveal-modal {
-		font-size: 22px;
-		line-height: .5;
-		position: absolute;
-		top: 8px;
-		right: 11px;
-		color: #aaa;
-		text-shadow: 0 -1px 1px rbga(0,0,0,.6);
-		font-weight: bold;
-		cursor: pointer;
-		} 
-	/*
