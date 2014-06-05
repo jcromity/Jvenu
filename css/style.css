@@ -353,7 +353,7 @@ button {
   to {
     -moz-transform:rotate(360deg);
   }
-}
+  
 @-webkit-keyframes loader_rot {
   from {
     -webkit-transform:rotate(0deg);
@@ -369,7 +369,6 @@ button {
   to {
     transform:rotate(360deg);
   }
-}
 
 .view-enter,.view-leave {
   -moz-transition:all .5s;
@@ -437,7 +436,6 @@ button {
     .paddRow .close {
       right:30px;
     }
-}
 
 @media (min-width: 769px) and (max-width:1199px){
     .contactForm {
@@ -527,7 +525,6 @@ button {
       -webkit-transform:translate3d(0,0,0);
       transform:translate3d(0,0,0);
     }
-}
 
 @media (min-width: 320px) and (max-width:480px) {
     body {
