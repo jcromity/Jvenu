@@ -443,6 +443,10 @@ button {
     .contactForm {
       width:100%;
     }
+	 header .logo {
+      margin-top:15px;
+      width:200px;
+    }
 	header .logo2 {
 		display:none
 	}
