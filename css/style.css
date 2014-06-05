@@ -461,9 +461,6 @@ button {
       font-size:1.1em;
       padding:8px;
     }
-    .wrap .wrap2 {
-      padding:0 15px;
-    }
 }
 
 @media (min-width: 481px) and (max-width: 768px){
