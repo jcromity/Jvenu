@@ -400,7 +400,7 @@ button {
 
 /* responsive rules */
 
-@media (max-width: 1400px) {
+@media (min-width: 1200px) and (max-width:2000px){
     body {
       font-size:90%;
     }
