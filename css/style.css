@@ -417,6 +417,9 @@ button {
       margin-top:15px;
       width:250px;
     }
+	header .logo2 {
+		display:none
+	}
     header nav {
       margin-top:11px;
     }
@@ -440,6 +443,9 @@ button {
     .contactForm {
       width:100%;
     }
+	header .logo2 {
+		display:none
+	}
 }
 
 @media (max-width: 768px) {
@@ -456,7 +462,10 @@ button {
     header .logo {
       margin-top:16px;
       width:190px;
-    }
+	}
+	header .logo2 {
+	  display:none
+	}
     header nav {
       margin-top:8px;
     }
@@ -518,6 +527,11 @@ button {
     header .logo {
       display:none;
     }
+	header .logo2 {
+	  display:inherit;
+	  margin-top:10px;
+	  width:30px;
+	}
     header nav {
       margin-top:3px;
     }
