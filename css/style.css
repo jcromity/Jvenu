@@ -353,7 +353,7 @@ button {
   to {
     -moz-transform:rotate(360deg);
   }
-  
+}
 @-webkit-keyframes loader_rot {
   from {
     -webkit-transform:rotate(0deg);
@@ -369,6 +369,7 @@ button {
   to {
     transform:rotate(360deg);
   }
+}
 
 .view-enter,.view-leave {
   -moz-transition:all .5s;
@@ -436,6 +437,7 @@ button {
     .paddRow .close {
       right:30px;
     }
+}
 
 @media (min-width: 769px) and (max-width:1199px){
     .contactForm {
@@ -448,17 +450,8 @@ button {
 	header .logo2 {
 		display:none
 	}
-    header nav {
-      margin-top:8px;
-    }
-    header nav ul li {
-      margin-right:5px;
-    }
-    header nav ul li a {
-      border-radius:20px;
-      font-size:1.1em;
-      padding:8px;
-    }
+}
+
 @media (min-width: 481px) and (max-width: 768px){
     body {
       font-size:80%;
@@ -525,6 +518,7 @@ button {
       -webkit-transform:translate3d(0,0,0);
       transform:translate3d(0,0,0);
     }
+}
 
 @media (max-width:480px) {
     body {
